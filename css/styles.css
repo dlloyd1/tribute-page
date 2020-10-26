@@ -1,4 +1,26 @@
-.wrapper {
+.gridWrapper {
     display: grid;
-    grid-gap: 10px;
+    background-color: #fff;
+    width: 100%;
+    grid-template-rows: repeat(auto-fit, 300px);
 }
+
+.gridBox {
+    display: grid;
+    border-radius: 8px;
+    padding: 5%;
+    font-size: 15px;
+    border: 2px solid black;
+    color: #000;
+    justify-content: center;
+    align-content: center;
+}
+
+.gridBoxEven {
+    background-color: #b89d7f;
+}
+
+.gridBoxOdd {
+    background-color: #827fb8;
+}
+
